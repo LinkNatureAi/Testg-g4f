@@ -1,6 +1,24 @@
 import g4f, asyncio
 
 _providers = [
+    g4f.Provider.Phind,
+    g4f.Provider.Aivvm,
+    g4f.Provider.GptChatly,
+    g4f.Provider.Lockchat,
+    g4f.Provider.Myshell,
+    g4f.Provider.OpenaiChat,
+    g4f.Provider.Acytoo,
+    g4f.Provider.AiService,
+    g4f.Provider.CodeLinkAva,
+    g4f.Provider.Cromicle,
+	
+    g4f.Provider.Chatgpt4Online,
+    g4f.Provider.Ails,
+    g4f.Provider.AiAsk,
+    g4f.Provider.ChatgptX,
+    g4f.Provider.Theb,
+	
+    g4f.Provider.Vercel,
     g4f.Provider.Bard,
     g4f.Provider.Liaobots,
     g4f.Provider.Raycast,
